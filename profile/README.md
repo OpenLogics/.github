@@ -1,5 +1,9 @@
-<img src="./logo_long_black.png#gh-light-mode-only" height=100/>
-<img src="./logo_long_white.png#gh-dark-mode-only" height=100/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../logo_long_white.png">
+  <source media="(prefers-color-scheme: light)" srcset="./logo_long_black.png">
+  <img alt="Dark" src="./logo_long_black.png">
+</picture>
+
 
 ## About
 
